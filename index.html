@@ -13,10 +13,10 @@
       <div class="logo logo_place_header"></div>
       <h1 class="header__title">Научиться учиться</h1>
       <p class="header__subtitle">Какие современные и эффективные подходы к обучению вы можете использовать в своей жизни?
-        <a href="#" target="_blank" class="header__link">Узнать &rarr;</a>
+        <a href="#" target="_blank" class="link header__link">Узнать &rarr;</a>
       </p>
       <img src="images/header-image.png" alt="Опять двойка" class="header__main-illustration">
-      <div class="header__square-pic"></div>
+      <div class="header__square-pic rotation"></div>
     </header>
     <main class="content">
       <section class="description">
@@ -28,6 +28,65 @@
             <p class="two-columns__paragraph">Конкретные техники и упражнения помогают изменить подход к обучению, сделать его эффективным и захватывающим. Эти же техники применяются на примере обучения в Практикуме.</p>
           </div>
         </article>
+      </section>
+      <section class="techniques">
+        <h2 class="section-title">Техники обучения</h2>
+        <p class="section-subtitle">Пять практик от Барбары Оакли</p>
+        <ul class="cards">
+          <li class="cards__item">
+            <img src="images/cards-attention.png" alt="Attention" class="cards__image">
+            <h3 class="cards__title">Два вида внимания</h3>
+            <p class="cards__description">Глубокие знания возникают, если чередовать сфокусированное и рассеянное мышление.</p>
+          </li>
+          <li class="cards__item">
+            <img src="images/cards-recall.png" alt="Recall" class="cards__image">
+            <h3 class="cards__title">Recall</h3>
+            <p class="cards__description">Вспоминайте изученное — это позволит соединить разрозненные порции памяти.</p>
+          </li>
+          <li class="cards__item">
+            <img src="images/cards-interliving.png" alt="Interliving" class="cards__image">
+            <h3 class="cards__title">Интерливинг</h3>
+            <p class="cards__description">Изучайте несколько навыков одновременно, они обогащают друг друга.</p>
+          </li>
+          <li class="cards__item">
+            <img src="images/cards-question.png" alt="Question" class="cards__image">
+            <h3 class="cards__title">Вопросы</h3>
+            <p class="cards__description">Слушая преподавателя, придумывайте хороший вопрос, который вас действительно волнует.</p>
+          </li>
+          <li class="cards__item">
+            <img src="images/cards-competence.png" alt="Competence" class="cards__image">
+            <h3 class="cards__title">Иллюзия компетентности</h3>
+            <p class="cards__description">Повторите про себя, запишите, расскажите другу: вам только кажется, что вы владеете новой темой.</p>
+          </li>
+        </ul>
+      </section>
+      <section class="video">
+        <h2 class="section-title">Видео нa TED</h2>
+        <p class="section-subtitle">Для тех, кто любит прокрастинировать</p>
+        <div class="video__iframes">
+          <div class="video__iframe">
+            <iframe type="text/html" width="515px" height="316px"
+                    src="https://www.youtube.com/embed/5MgBikgcWnY" class="video__iframe"></iframe>
+          </div>
+          <div class="video__iframe">
+            <iframe type="text/html" width="515px" height="316px"
+                    src="https://www.youtube.com/embed/arj7oStGLkU" class="video__iframe"></iframe>
+          </div>
+        </div>
+      </section>
+      <section class="oakley">
+        <article class="two-columns">
+          <h2 class="two-columns__brief">История Барбары Оакли.</h2>
+          <div class="two-columns__main-text">
+            <p class="two-columns__paragraph">С детства Барбаре не давалась математика. Она считала себя законченным гуманитарием, причём далеко не самым умным. В армии она изучала русский язык, чтобы получить надбавку, да так успешно, что её выдвинули в командиры. Но для продвижения по службе нужно было сдавать математику. И тогда Барбара придумала свой подход к точным наукам. Оказалось, если вам что-то «плохо даётся», ваши добытые трудом знания гораздо глубже, чем у тех, кому всё ясно с первого взгляда.</p>
+          </div>
+        </article>
+      </section>
+      <section class="feynman">
+        <h2 class="feynman__title">Метод Фейнмана</h2>
+        <p class="feynman__subtitle">Выучить и не забыть.</p>
+        <a href="#" target="_blank" class="link feynman__link">Подробнее &rarr;</a>
+        <img src="./images/feynman.png" alt="Ричард Фейнман" class="feynman__image">
       </section>
       <section class="digits">
         <h2 class="section-title">Цифры и факты</h2>
@@ -68,12 +127,6 @@
             <p class="table__text">Открытие условного рефлекса</p>
           </li>
         </ul>
-      </section>
-      <section class="feynman">
-        <h2 class="feynman__title">Метод Фейнмана</h2>
-        <p class="feynman__subtitle">Выучить и не забыть.</p>
-        <a href="#" target="_blank" class="feynman__link">Подробнее &rarr;</a>
-        <img src="./images/feynman.png" alt="Ричард Фейнман" class="feynman__image">
       </section>
       <section class="kaufman">
         <h2 class="section-title kaufman__title">Принципы обучения</h2>
@@ -132,17 +185,17 @@
         <nav class="footer__column footer__column_content_info">
           <h4 class="footer__column-heading">О Практикуме</h4>
           <ul class="footer__column-links">
-            <li><a href="#" target="_blank" class="footer__column-link">Главная</a></li>
-            <li><a href="#" target="_blank" class="footer__column-link">Концепция</a></li>
-            <li><a href="#" target="_blank" class="footer__column-link">Наставники</a></li>
+            <li><a href="#" target="_blank" class="link footer__column-link">Главная</a></li>
+            <li><a href="#" target="_blank" class="link footer__column-link">Концепция</a></li>
+            <li><a href="#" target="_blank" class="link footer__column-link">Наставники</a></li>
           </ul>
         </nav>
         <nav class="footer__column footer__column_content_social">
           <h4 class="footer__column-heading">Соцсети</h4>
           <ul class="footer__column-links">
-            <li><a href="#" target="_blank" class="footer__column-link"><img alt="Ютуб" src="images/youtube-icon.svg" class="footer__social-icon">YouTube</a></li>
-            <li><a href="#" target="_blank" class="footer__column-link"><img alt="ВКонтакте" src="images/vk_color_white.svg" class="footer__social-icon">ВКонтакте</a></li>
-            <li><a href="#" target="_blank" class="footer__column-link"><img alt="Тик-Ток" src="images/tiktok-icon.svg" class="footer__social-icon">TikTok</a></li>
+            <li><a href="#" target="_blank" class="link footer__column-link"><img alt="Ютуб" src="images/youtube-icon.svg" class="footer__social-icon">YouTube</a></li>
+            <li><a href="#" target="_blank" class="link footer__column-link"><img alt="ВКонтакте" src="images/vk_color_white.svg" class="footer__social-icon">ВКонтакте</a></li>
+            <li><a href="#" target="_blank" class="link footer__column-link"><img alt="Тик-Ток" src="images/tiktok-icon.svg" class="footer__social-icon">TikTok</a></li>
           </ul>
         </nav>
       </div>
